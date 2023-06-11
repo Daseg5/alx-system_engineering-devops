@@ -1,5 +1,2 @@
 #!/bin/bash
-mv/tmt/betty/tmp/my_first_directory/betty
-
-
-
+mv /tmt/betty/tmp/my_first_directory/
