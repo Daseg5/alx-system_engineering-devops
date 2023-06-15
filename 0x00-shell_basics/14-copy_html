@@ -1,2 +1,2 @@
 #!/bin/bash
-./copy_html_files.sh
+find . -maxdepth 1 -name '*.html' -newer ../ -exec cp -u '{}' '../' \;
