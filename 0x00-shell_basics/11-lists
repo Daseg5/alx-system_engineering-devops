@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -al 
+echo "Files in the /boot directory:" ls -al
