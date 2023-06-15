@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la ... /boott
+ls -al && cd .. && ls -al && cd /boot && ls -al
