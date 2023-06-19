@@ -1,2 +1,2 @@
 #!/bin/bash
-(printf '%s\n' . .. ; ls -1A | sort -d -f -t/ -k1.1,1.1 -k1.2n) | paste -sd ',' - ; echo
+(printf '%s\n' . ..  ls -1A | sort -d -f -t/ -k1.1,1.1 -k1.2n) | paste -sd ',' -  echo
