@@ -1,2 +1,2 @@
 #!/bin/bash
-(echo . echo .. ls -1A | grep -vE '^(\.|..)$' | LC_ALL=C sort -t/ -k1.1,1.1 -k1.2n) | paste -sd ',' -  echo
+ls -xamp
